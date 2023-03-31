@@ -1,0 +1,31 @@
+.quote-name{
+  font-weight: 500;
+  font-size: xx-large;
+  color: #767575;
+}
+
+.quote-price{
+  font-weight: 500;
+  font-size: xxx-large;
+  color: #000000;
+  
+  .quote-change{
+    display: inline-block;
+    font-size: xx-large;
+    align-self: self-end;
+    
+    &.green{
+      color: #048001;
+    }
+    
+    &.red{
+      color: #e21111;
+    }
+  }
+}
+
+.quote-date{
+  font-weight: 500;
+  font-size: large;
+  color: #949f9f;
+}
